@@ -1,4 +1,4 @@
-🔐 Spring Security + API Gateway Demo — Summary
+🔐 **Spring Security + API Gateway Demo — Summary**
 
 This project demonstrates a microservices security setup using:
 
@@ -14,7 +14,7 @@ Public endpoints — accessible without authentication
 
 Secured endpoints — require a valid JWT token in the Authorization: Bearer <token> header
 
-🏗️ High-Level Flow
+🏗️ **High-Level Flow**
 
 Client logs in and receives a JWT
 
@@ -24,10 +24,10 @@ Gateway validates the token
 
 Forwarded request reaches the secured service
 
-⚙️ Tech Stack
+⚙️** Tech Stack**
 
 Spring Boot 3 • Spring Security • Spring Cloud Gateway • MySQL • JWT • Maven
 
-🚀 How to Run
+🚀 **How to Run**
 
 Configure DB → build apps → start services → import Postman collection → test public & secured APIs.
